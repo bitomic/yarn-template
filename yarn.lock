@@ -957,23 +957,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-select@npm:^4.1.3":
-  version: 4.2.1
-  resolution: "css-select@npm:4.2.1"
+"css-select@npm:^4.2.1":
+  version: 4.3.0
+  resolution: "css-select@npm:4.3.0"
   dependencies:
     boolbase: ^1.0.0
-    css-what: ^5.1.0
-    domhandler: ^4.3.0
+    css-what: ^6.0.1
+    domhandler: ^4.3.1
     domutils: ^2.8.0
     nth-check: ^2.0.1
-  checksum: 6617193ec7c332217204c4ea371d332c6845603fda415e36032e7e9e18206d7c368a14e3c57532082314d2689955b01122aa1097c1c52b6c1cab7ad90970d3c6
+  checksum: d6202736839194dd7f910320032e7cfc40372f025e4bf21ca5bf6eb0a33264f322f50ba9c0adc35dadd342d3d6fae5ca244779a4873afbfa76561e343f2058e0
   languageName: node
   linkType: hard
 
-"css-what@npm:^5.1.0":
-  version: 5.1.0
-  resolution: "css-what@npm:5.1.0"
-  checksum: 0b75d1bac95c885c168573c85744a6c6843d8c33345f54f717218b37ea6296b0e99bb12105930ea170fd4a921990392a7c790c16c585c1d8960c49e2b7ec39f7
+"css-what@npm:^6.0.1":
+  version: 6.1.0
+  resolution: "css-what@npm:6.1.0"
+  checksum: b975e547e1e90b79625918f84e67db5d33d896e6de846c9b584094e529f0c63e2ab85ee33b9daffd05bff3a146a1916bec664e18bb76dd5f66cbff9fc13b2bbe
   languageName: node
   linkType: hard
 
@@ -1082,12 +1082,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domhandler@npm:^4.2.0, domhandler@npm:^4.3.0":
+"domhandler@npm:^4.2.0":
   version: 4.3.0
   resolution: "domhandler@npm:4.3.0"
   dependencies:
     domelementtype: ^2.2.0
   checksum: d2a2dbf40dd99abf936b65ad83c6b530afdb3605a87cad37a11b5d9220e68423ebef1b86c89e0f6d93ffaf315cc327cf1a988652e7a9a95cce539e3984f4c64d
+  languageName: node
+  linkType: hard
+
+"domhandler@npm:^4.3.1":
+  version: 4.3.1
+  resolution: "domhandler@npm:4.3.1"
+  dependencies:
+    domelementtype: ^2.2.0
+  checksum: 4c665ceed016e1911bf7d1dadc09dc888090b64dee7851cccd2fcf5442747ec39c647bb1cb8c8919f8bbdd0f0c625a6bafeeed4b2d656bbecdbae893f43ffaaa
   languageName: node
   linkType: hard
 
@@ -2203,13 +2212,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-html-parser@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "node-html-parser@npm:5.2.0"
+"node-html-parser@npm:^5.4.1":
+  version: 5.4.1
+  resolution: "node-html-parser@npm:5.4.1"
   dependencies:
-    css-select: ^4.1.3
+    css-select: ^4.2.1
     he: 1.2.0
-  checksum: 999b3f3f461ac3ea810cb333d34049dc708c39599732d26a1c3dde3dfc0ecaa9f47cddd71f4507746c0bdac02692225a337c2b2b5adab6192a10285d01117a5e
+  checksum: 7067e2de97a10c0e6e63d6e4c039ddc682027b80c821a3a812ed11bfadd0433324cccb2f6955a30b174e35993fd8be2ce642b8ed6eed5ca9c6ab36a5d5ce0612
   languageName: node
   linkType: hard
 
@@ -3274,7 +3283,7 @@ __metadata:
     lint-staged: ^13.0.3
     nanoid: ^3.3.1
     node-fetch: ^3.2.0
-    node-html-parser: ^5.2.0
+    node-html-parser: ^5.4.1
     rimraf: ^3.0.2
     typescript: ^4.7.4
   languageName: unknown
