@@ -43,7 +43,6 @@ FROM base AS runner
 WORKDIR /home/node/app
 
 ENV NODE_ENV="production"
-ENV YARN_CACHE_FOLDER="./.yarn/caches"
 
 COPY --chown=node:node --from=builder /home/node/app/dist dist
 
