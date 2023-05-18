@@ -2,9 +2,23 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
-  pull_request_target:
-    branches: [ main ]
+    branches:
+      - main
+    paths:
+      - '.github/workflows/node.js.yml'
+      - 'src/**'
+      - 'Dockerfile'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/node.js.yml'
+      - 'src/**'
+      - 'Dockerfile'
+  workflow_dispatch:
+
+permisions:
+  contents: read
 
 jobs:
   build:
