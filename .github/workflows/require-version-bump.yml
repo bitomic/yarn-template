@@ -1,0 +1,19 @@
+name: Require version bump
+
+on:
+  pull_request:
+    branches-ignore:
+      - 'renovate/**'
+
+jobs:
+  check:
+    name: Check for a version bump
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Check for version bump
+        uses: bachmacintosh/need-npm-package-version-bump@v1
+        with:
+          repo-token: ${{ secrets.GH_TOKEN }}
