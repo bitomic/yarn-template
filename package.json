@@ -6,29 +6,25 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "hooks": "husky install .github/husky",
     "build": "rimraf tsconfig.tsbuildinfo dist && yarn tsc --listEmittedFiles --incremental",
     "build:watch": "yarn tsc -w --incremental",
     "lint": "eslint src/ --ext .ts --cache",
     "lint:fix": "eslint src/ --fix --ext .ts --cache",
-    "start": "yarn node dist/main.js"
+    "start": "yarn node --enable-source-maps dist/main.js"
   },
   "packageManager": "yarn@3.5.1",
   "devDependencies": {
     "@bitomic/eslint-config": "^1.2.0",
-    "@commitlint/cli": "^17.6.3",
-    "@commitlint/config-conventional": "^17.6.3",
     "@types/node": "^18.16.12",
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
     "eslint": "^8.40.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.2",
     "rimraf": "^5.0.0",
     "typescript": "^5.0.4"
   },
-  "dependencies": {
-    "ts-dotenv": "^0.9.1"
+  "resolutions": {
+    "listr2": "^6.6.0",
+    "rimraf": "^5.0.0"
   },
   "publishConfig": {
     "access": "public"
