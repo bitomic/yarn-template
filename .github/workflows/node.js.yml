@@ -8,4 +8,4 @@ on:
 
 jobs:
   build:
-    uses: bitomic/utilities/.github/workflows/docker-build.yml@fb60af0f05681ab48b1d5fa62e72d99c5952f3a4
+    uses: bitomic/utilities/.github/workflows/docker-build.yml@65ae9efd118a117d6dc3e6bda5d1332d11de1cc8
