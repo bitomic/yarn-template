@@ -12,7 +12,7 @@
     "lint:fix": "eslint src/ --fix --ext .ts --cache",
     "start": "yarn node --enable-source-maps dist/main.js"
   },
-  "packageManager": "yarn@3.6.0",
+  "packageManager": "yarn@3.6.1",
   "devDependencies": {
     "@bitomic/eslint-config": "^1.2.0",
     "@types/node": "^18.16.18",
