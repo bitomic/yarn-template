@@ -20,4 +20,4 @@ permissions:
 
 jobs:
   build:
-    uses: bitomic/utilities/.github/workflows/docker-build.yml@84e8d8f57c9e21cb76a63eb1d53d129d5817fe30
+    uses: bitomic/utilities/.github/workflows/docker-build.yml@7f750182b3cd7009e6851e754575117cba9f6676
