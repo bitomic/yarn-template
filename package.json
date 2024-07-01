@@ -20,7 +20,7 @@
     "@typescript-eslint/parser": "^7.14.1",
     "eslint": "^9.5.0",
     "rimraf": "^5.0.7",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "resolutions": {
     "listr2": "^6.6.1",
