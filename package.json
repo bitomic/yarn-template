@@ -19,12 +19,12 @@
     "@typescript-eslint/eslint-plugin": "^7.15.0",
     "@typescript-eslint/parser": "^7.15.0",
     "eslint": "^9.6.0",
-    "rimraf": "^5.0.7",
+    "rimraf": "^5.0.8",
     "typescript": "^5.5.3"
   },
   "resolutions": {
     "listr2": "^6.6.1",
-    "rimraf": "^5.0.7"
+    "rimraf": "^5.0.8"
   },
   "publishConfig": {
     "access": "public"
