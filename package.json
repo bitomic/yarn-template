@@ -23,7 +23,7 @@
     "typescript": "^5.9.3"
   },
   "resolutions": {
-    "listr2": "^6.6.1",
+    "listr2": "^9.0.5",
     "rimraf": "^5.0.10"
   },
   "publishConfig": {
